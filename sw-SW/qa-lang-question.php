@@ -20,12 +20,12 @@
 */
 
 return array(
-	'1_answer_title' => '1 Jibu',
-	'a_convert_to_c' => 'Convert hiki jibu into a maoni',
-	'a_convert_to_c_on' => 'Convert hiki jibu into a maoni on:',
-	'a_convert_warn' => 'Warning: This conversion cannot be reversed.',
-	'a_convert_warn_cs' => 'Warning: This conversion cannot be reversed na will also move hiki jibu\'s maoni.',
-	'a_notify_email' => 'Email me at hiki address if my jibu is selected au alitoa maoni on:',
+	'1_answer_title' => 'Jibu 1',
+	'a_convert_to_c' => 'Badilisha hili jibu liwe maoni',
+	'a_convert_to_c_on' => 'Badilisha hili jibu liwe maoni kwa:',
+	'a_convert_warn' => 'Onyo: Ubadlishaji huu hauwezi kurudiliwa.',
+	'a_convert_warn_cs' => 'Onyo: Ubadlishaji huu hauwezi kurudiliwa na pia utasongeza jibu hili\'s maoni.',
+	'a_notify_email' => 'Nitumie barua pepe kwenye anwani hii iwapo jibu lang litachaguliwa au kupata maoni:',
 	'a_notify_label' => 'Email me if my jibu is selected au alitoa maoni on',
 	'a_notify_x_label' => 'Email me (^) if my jibu is selected au alitoa maoni on',
 	'a_waiting_your_approval' => 'This jibu is waiting for your approval',

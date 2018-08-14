@@ -20,66 +20,66 @@
 */
 
 return array(
-	'a_commented_body' => "Your jibu on ^site_title has a new maoni by ^c_handle:\n\n^open^c_content^close\n\nYour jibu was:\n\n^open^c_context^close\n\nYou may respond by adding your own maoni:\n\n^url\n\nThank you,\n\n^site_title",
-	'a_commented_subject' => 'Your ^site_title jibu has a new maoni',
+	'a_commented_body' => "Jibu lako kwenye ^site_title lina maoni mapya na ^c_handle:\n\n^open^c_content^close\n\nJibu lako lilikuwa:\n\n^open^c_context^close\n\nUnaweza kurejelea kwa kuongeza maoni yako:\n\n^url\n\nAsante,\n\n^site_title",
+	'a_commented_subject' => 'Jibu lako la ^site_title lina maoni mapya',
 
-	'a_followed_body' => "Your jibu on ^site_title has a new related swali by ^q_handle:\n\n^open^q_title^close\n\nYour jibu was:\n\n^open^a_content^close\n\nClick below to jibu the new swali:\n\n^url\n\nThank you,\n\n^site_title",
-	'a_followed_subject' => 'Your ^site_title jibu has a related swali',
+	'a_followed_body' => "Jibu lako kwenye ^site_title lina swali jipya linalohusiana nalo na ^q_handle:\n\n^open^q_title^close\n\nJibu lako lilikuwa:\n\n^open^a_content^close\n\nBonyeza hapo chini ili kujibu swali hili jipya:\n\n^url\n\nAsante,\n\n^site_title",
+	'a_followed_subject' => 'Jibu lako kwenye ^site_title lina swali jipya',
 
-	'a_selected_body' => "Congratulations! Your jibu on ^site_title has been selected as the best by ^s_handle:\n\n^open^a_content^close\n\nThe swali was:\n\n^open^q_title^close\n\nClick below to see your jibu:\n\n^url\n\nThank you,\n\n^site_title",
-	'a_selected_subject' => 'Your ^site_title jibu has been selected!',
+	'a_selected_body' => "Heko! Jibu lako kwenye ^site_title limechaguliwa kuwa bora ^s_handle:\n\n^open^a_content^close\n\nSwali lako lilikuwa:\n\n^open^q_title^close\n\nBonyeza hapo chini ili kuona jibu lako:\n\n^url\n\nAsante,\n\n^site_title",
+	'a_selected_subject' => 'Jibu lako kwenye ^site_title limechaguliwa kuwa bora!',
 
-	'c_commented_body' => "A new maoni by ^c_handle has been added after your maoni on ^site_title:\n\n^open^c_content^close\n\nThe discussion is following:\n\n^open^c_context^close\n\nYou may respond by adding another maoni:\n\n^url\n\nThank you,\n\n^site_title",
-	'c_commented_subject' => 'Your ^site_title maoni has been added to',
+	'c_commented_body' => "Maoni mapya na ^c_handle yameongezewa baada ya maoni yako kwenye ^site_title:\n\n^open^c_content^close\n\nMjadala unafwatilia:\n\n^open^c_context^close\n\nUnaweza kurejelea kwa kuongeza maoni mengine:\n\n^url\n\nAsante,\n\n^site_title",
+	'c_commented_subject' => 'Maoni yako kwenye ^site_title yameongezewa maoni mengine',
 
-	'confirm_body' => "Please click below to confirm your email address for ^site_title.\n\n^url\n\nConfirmation code: ^code\n\n Thank you,\n^site_title",
-	'confirm_subject' => '^site_title - Email Address Confirmation',
+	'confirm_body' => "Tafadhali bonyeza hapo chini ili kuthibithisha barua pepe ya ^site_title.\n\n^url\n\nKodi ya Uthibithisho: ^code\n\n Asante,\n^site_title",
+	'confirm_subject' => '^site_title - Uthibithisho wa Barua pepe',
 
-	'feedback_body' => "Maoni:\n^message\n\nName:\n^name\n\nEmail:\n^email\n\nPrevious page:\n^previous\n\nUser:\n^url\n\nIP address:\n^ip\n\nBrowser:\n^browser",
-	'feedback_subject' => '^ feedback',
+	'feedback_body' => "Maoni:\n^message\n\nName:\n^name\n\nEmail:\n^email\n\nUkurasa uliotangulia:\n^previous\n\nMtumiaji:\n^url\n\nAnwani ya IP:\n^ip\n\nKivinjari:\n^browser",
+	'feedback_subject' => '^ mawasiliano',
 
-	'flagged_body' => "A chapisho by ^p_handle has received ^flags:\n\n^open^p_context^close\n\nClick below to see the chapisho:\n\n^url\n\n\nClick below to review all flagged chapisho:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-	'flagged_subject' => '^site_title has a flagged chapisho',
+	'flagged_body' => "Chapisho na ^p_handle limepokea ^flags:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuona chapisho:\n\n^url\n\n\nBonyeza hapo chini ili kuona machapisho megine mengine yenye flags:\n\n^a_url\n\n\nAsante,\n\n^site_title",
+	'flagged_subject' => '^site_title ina chapisho lenye flags',
 
-	'moderate_body' => "A chapisho by ^p_handle requires your approval:\n\n^open^p_context^close\n\nClick below to approve au reject the chapisho:\n\n^url\n\n\nClick below to review all queued chapisho:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-	'moderate_subject' => '^site_title moderation',
+	'moderate_body' => "Chapisho na ^p_handle linahitaji idhini yako:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuidhinisha au kukataa chapisho:\n\n^url\n\n\nBonyeza hapo chini ili kukagua machapisho yote yanayosubiri idhini:\n\n^a_url\n\n\nAsante,\n\n^site_title",
+	'moderate_subject' => 'Ukaguzi wa ^site_title',
 
-	'new_password_body' => "Your new password for ^site_title is below.\n\nPassword: ^password\n\nIt is recommended to change hiki password immediately after logging in.\n\nThank you,\n^site_title\n^url",
-	'new_password_subject' => '^site_title - Your New Password',
+	'new_password_body' => "Nenosiri lako jipya la ^site_title liko hapo chini.\n\nNenosiri: ^password\n\nUnapaswa ubadili nenosiri hili mara moja baada ya kuingia kwenye tovuti.\n\nAsante,\n^site_title\n^url",
+	'new_password_subject' => '^site_title - Nenosiri lako jipya',
 
-	'private_message_body' => "You have been sent a private message by ^f_handle on ^site_title:\n\n^open^message^close\n\n^moreThank you,\n\n^site_title\n\n\nTo block private messages, visit your account page:\n^a_url",
-	'private_message_info' => "More information about ^f_handle:\n\n^url\n\n",
-	'private_message_reply' => "Click below to reply to ^f_handle by private message:\n\n^url\n\n",
-	'private_message_subject' => 'Message from ^f_handle on ^site_title',
+	'private_message_body' => "Umetumiwa ujumbe wa faraghani na ^f_handle kwenye ^site_title:\n\n^open^message^close\n\n^moreAsante,\n\n^site_title\n\n\nIli kuzuia jumbe za faraghani, tembelea ukurasa wa akaunti yako:\n^a_url",
+	'private_message_info' => "Taarifa zaidi kuhusu ^f_handle:\n\n^url\n\n",
+	'private_message_reply' => "Bonyeza hapo chini ili kumjibu ^f_handle kwa ujumbe wa faraghani:\n\n^url\n\n",
+	'private_message_subject' => 'Ujumbe kutoka kwa ^f_handle kwenye ^site_title',
 
-	'q_answered_body' => "Your swali on ^site_title has been alijibu by ^a_handle:\n\n^open^a_content^close\n\nYour swali was:\n\n^open^q_title^close\n\nIf you like hiki jibu, you may select it as the best:\n\n^url\n\nThank you,\n\n^site_title",
-	'q_answered_subject' => 'Your ^site_title swali was alijibu',
+	'q_answered_body' => "Swali lako kwenye ^site_title limejibiwa na ^a_handle:\n\n^open^a_content^close\n\nSwali lako lilikuwa:\n\n^open^q_title^close\n\nKama unapenda jibu hili, unaweza kujichagua kama bora:\n\n^url\n\nAsante,\n\n^site_title",
+	'q_answered_subject' => 'Swali lako la ^site_title limejibiwa',
 
-	'q_commented_body' => "Your swali on ^site_title has a new maoni by ^c_handle:\n\n^open^c_content^close\n\nYour swali was:\n\n^open^c_context^close\n\nYou may respond by adding your own maoni:\n\n^url\n\nThank you,\n\n^site_title",
-	'q_commented_subject' => 'Your ^site_title swali has a new maoni',
+	'q_commented_body' => "Swali lako la ^site_title lina maoni mapya na ^c_handle:\n\n^open^c_content^close\n\nSwali lako lilikuwa:\n\n^open^c_context^close\n\nUnaweza kurejelea kwa kuongeza maoni yako:\n\n^url\n\nAsante,\n\n^site_title",
+	'q_commented_subject' => 'Swali lako la ^site_title lina maoni mapya',
 
-	'q_posted_body' => "A new swali has been aliuliza by ^q_handle:\n\n^open^q_title\n\n^q_content^close\n\nClick below to see the swali:\n\n^url\n\nThank you,\n\n^site_title",
-	'q_posted_subject' => '^site_title has a new swali',
+	'q_posted_body' => "Swali jipya limeulizwa na ^q_handle:\n\n^open^q_title\n\n^q_content^close\n\nBonyeza hapo chini ili kuliona swali:\n\n^url\n\nAsante,\n\n^site_title",
+	'q_posted_subject' => '^site_title lina swali',
 
-	'remoderate_body' => "An edited chapisho by ^p_handle requires your reapproval:\n\n^open^p_context^close\n\nClick below to approve au hide the edited chapisho:\n\n^url\n\n\nClick below to review all queued chapisho:\n\n^a_url\n\n\nThank you,\n\n^site_title",
-	'remoderate_subject' => '^site_title moderation',
+	'remoderate_body' => "Chapisho lililohaririwa na ^p_handle lianhitaji idhini yako:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuidhinisha au kuficha chapisho liliohaririwa:\n\n^url\n\n\nBonyeza hapo chini ili kukagua machapisho yaote yaliyohaririwa:\n\n^a_url\n\n\nAsante,\n\n^site_title",
+	'remoderate_subject' => 'Ukaguzi wa ^site_title',
 
-	'reset_body' => "Please click below to reset your password for ^site_title.\n\n^url\n\nAlternatively, enter the code below into the uga provided.\n\nCode: ^code\n\nIf you did not uliza to reset your password, please ignore hiki message.\n\nThank you,\n^site_title",
-	'reset_subject' => '^site_title - Reset Forgotten Password',
+	'reset_body' => "Tafadhali bonyeza hapo chini ili kubadilisha nenosiri lako la ^site_title.\n\n^url\n\nPia, unaweza kuingiza kodi hapo chini kwenye uga uliopeanwa.\n\nCode: ^code\n\nKama haukuomba kubadilisha nenosiri lako, tafadhali puuza ujumbe huu.\n\nAsante,\n^site_title",
+	'reset_subject' => '^site_title - Badlisha Nenosiri Liliosahaulika',
 
 	'to_handle_prefix' => "^,\n\n",
 
-	'u_registered_body' => "A new mtumiaji has registered as ^u_handle.\n\nClick below to view the mtumiaji profile:\n\n^url\n\nThank you,\n\n^site_title",
-	'u_registered_subject' => '^site_title has a new registered mtumiaji',
-	'u_to_approve_body' => "A new mtumiaji has registered as ^u_handle.\n\nClick below to approve the mtumiaji:\n\n^url\n\nClick below to review all watumiaji waiting for approval:\n\n^a_url\n\nThank you,\n\n^site_title",
+	'u_registered_body' => "Mtumiaji mpya amejisali kama ^u_handle.\n\nBonyeza hapo chini ili kuona profaili yake:\n\n^url\n\nAsante,\n\n^site_title",
+	'u_registered_subject' => '^site_title ila mtumiaji mpya aliyejisajili',
+	'u_to_approve_body' => "Mtumiaji mpya amejisajili kama ^u_handle.\n\nBonyeza hapo chini ili kumwidhinisha mtumiaji:\n\n^url\n\nBonyeza hapo chini ili kukagua watumiaji wote wanaosubiri kuidhinishwa:\n\n^a_url\n\nAsante,\n\n^site_title",
 
-	'u_approved_body' => "You can see your new mtumiaji profile here:\n\n^url\n\nThank you,\n\n^site_title",
-	'u_approved_subject' => 'Your ^site_title mtumiaji has been approved',
+	'u_approved_body' => "Unaweza kuona profile yako hapa:\n\n^url\n\nAsante,\n\n^site_title",
+	'u_approved_subject' => 'Umeidhinishwa kwenye ^site_title',
 
-	'wall_post_body' => "^f_handle has posted on your mtumiaji wall at ^site_title:\n\n^open^chapisho^close\n\nYou may respond to the chapisho here:\n\n^url\n\nThank you,\n\n^site_title",
-	'wall_post_subject' => 'Post on your ^site_title wall',
+	'wall_post_body' => "^f_handle amechapisha kwenye ukuta wako katika ^site_title:\n\n^open^chapisho^close\n\nUnaweza kurejelea chapisho lake hapa:\n\n^url\n\nAsante,\n\n^site_title",
+	'wall_post_subject' => 'Chapisho kwenye ukuta wako wa ^site_title',
 
-	'welcome_body' => "Thank you for registering for ^site_title.\n\n^custom^confirmYour login details are as follows:\n\nUsername: ^handle\nEmail: ^email\n\nPlease keep hiki information safe for future reference.\n\nThank you,\n\n^site_title\n^url",
-	'welcome_confirm' => "Please click below to confirm your email address.\n\n^url\n\n",
-	'welcome_subject' => 'Welcome to ^site_title!',
+	'welcome_body' => "Asante kwa kujisajili kwenye ^site_title.\n\n^custom^confirmMaelezo yako ya kuingia ni kama ifwatavyo:\n\nJina la Mtuamiaji: ^handle\nBarua pepe: ^email\n\nTafadhali weka maelezo ahaya salama kwa ajili ya kurejelea baadaye.\n\nAsante,\n\n^site_title\n^url",
+	'welcome_confirm' => "Tafadhali bonyeza chini ili kuthibithisha barua pepe yako.\n\n^url\n\n",
+	'welcome_subject' => 'Karibu kwa ^site_title!',
 );

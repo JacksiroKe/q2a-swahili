@@ -84,7 +84,7 @@ return array(
 	'wall_for_x' => 'Wall for ^',
 	'wall_view_more' => 'View more wall chapisho...',
 	'x_chosen_as_best' => ' (^ chosen as best)',
-	'x_down_votes' => '^ down votes',
-	'x_up_votes' => '^ up votes',
+	'x_down_votes' => '^ kura za chini',
+	'x_up_votes' => '^ kura za juu',
 	'x_with_best_chosen' => ' (^ with best jibu chosen)',
 );
