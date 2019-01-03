@@ -41,7 +41,7 @@ return array(
 	'flagged_body' => "Chapisho na ^p_handle limepokea ^flags:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuona chapisho:\n\n^url\n\n\nBonyeza hapo chini ili kuona machapisho megine mengine yenye flags:\n\n^a_url\n\n\nAsante,\n\n^site_title",
 	'flagged_subject' => '^site_title ina chapisho lenye flags',
 
-	'moderate_body' => "Chapisho na ^p_handle linahitaji idhini yako:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuidhinisha au kukataa chapisho:\n\n^url\n\n\nBonyeza hapo chini ili kukagua machapisho yote yanayosubiri idhini:\n\n^a_url\n\n\nAsante,\n\n^site_title",
+	'moderate_body' => "Chapisho la ^p_handle linahitaji idhini yako:\n\n^open^p_context^close\n\nBonyeza hapo chini ili kuidhinisha au kukataa chapisho:\n\n^url\n\n\nBonyeza hapo chini ili kukagua machapisho yote yanayosubiri idhini:\n\n^a_url\n\n\nAsante,\n\n^site_title",
 	'moderate_subject' => 'Ukaguzi wa ^site_title',
 
 	'new_password_body' => "Nenosiri lako jipya la ^site_title liko hapo chini.\n\nNenosiri: ^password\n\nUnapaswa ubadili nenosiri hili mara moja baada ya kuingia kwenye tovuti.\n\nAsante,\n^site_title\n^url",
